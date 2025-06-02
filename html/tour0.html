@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style-tour.css">
+        <title>Костромская слабода</title>
+        <link rel="icon" href="../svg/logo.svg">
+    </head>
+    <body>
+        <header>
+            <img src="../svg/logo.svg" alt="logo">
+            <nav>
+                <ul id="menu">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a class="activ" href="tour.html">Экскурсия</a></li>
+                    <li><a href="map.html">Карта</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Начало экскурсии</h1>
+            <img src="../png/cover.jpg" alt="Обложка">
+            <p class="center">Выберете прослушать или прочитать экскурссию</p>
+            <div>
+                <a onclick = "FuncText()">Текст</a>
+                <a onclick = "FuncAudio()">Аудиозапись</a>
+                <a id="hide" onclick = "FuncHide()">скрыть ✖</a>
+            </div>
+            <div id="audio">
+                <audio id="player" controls >
+                    <source src="../audio/0.mp3" type="audio/mpeg">
+                    <source src="#" type="audio/ogg">
+                    У вашего браузера нет возможности воспроизвести аудио 
+                </audio>
+                <div>
+                        <button onclick="document.getElementById('player').play()">Воспроизведение</button>
+                        <button onclick="document.getElementById('player').pause()">Пауза</button>
+                        <button onclick="audio=document.getElementById('player'); audio.currentTime=0; audio.pause(); ">Сначала</button>
+                        <button onclick="document.getElementById('player').volume+=0.1">Громкость +</button>
+                        <button onclick="document.getElementById('player').volume-=0.1">Громкость -</button>
+                    </div>
+                <div class="photo">
+                    <a onclick = "FuncImg1()">1</a>
+                    <a onclick = "FuncImg2()">2</a>
+                    <a onclick = "FuncImg3()">3</a>
+                </div>
+                <figure id="img1">
+                    <img src="../png/1.jpg" alt="Картинка 1">
+                    <figcaption>Текст подписи под изображением</figcaption>  
+                </figure>
+                <figure id="img2">
+                    <img src="../png/2.jpg" alt="Картинка 2">
+                    <figcaption>Текст подписи под изображением</figcaption>  
+                </figure>
+                <figure id="img3">
+                    <img src="../png/cover.jpg" alt="Картинка 3">
+                    <figcaption>Текст подписи под изображением</figcaption>  
+                </figure>
+            </div>
+            <div id="text">
+                <p>Костромской музей деревянного зодчества расположен на стрелке рек Волги и Костромы. Он был учреждён, областным руководством, 3 мая 1960 года и начало его формирования было связано со строительством Горьковской ГЭС в начале 1950-х годов. В это время создаётся Горьковское водохранилище, река Волга выходит из своих берегов и часть знаменитой Костромской низины тоже вошла в зону подтопления волжскими водами. В селениях тех мест располагались уникальные деревянные постройки – двадцати четырёх свайная церковь Спаса-Преображения (1713 г.) из с. Спас Вёжи и свайные «чёрные» баньки из д. Ведёрки, составлявшие культурный феномен крестьянского архитектурного наследия.  В целях сохранения для последующих поколений эти памятники были перевезены, в 1955 году, на территорию Костромского музея-заповедника, располагавшегося в стенах Ипатьевского монастыря. Собственно эти свайные объекты и положили начало Костромскому музею деревянного зодчества под открытым небом.  
+                    </p>
+                <figure>
+                    <img src="../png/1.jpg" alt="Картинка 1">
+                    <figcaption>Текст подписи под изображением</figcaption> <hr> 
+                </figure>
+                <p>
+            Позже, музей стал осваивать и другие прилегающие к Ипатьевскому монастырю территории. В начале 1960-х годов в бывшей подмонастырской Богословской (ныне Ипатьевской) слободе устанавливаются памятники народного зодчества из более отдалённых селений Костромской области. Это прежде всего церковь Собора Пр. Богородицы (1700 г.) из с. Холм Галичского района, дом крестьянина Ершова из Межевского района и др. </p>
+                <figure>
+                    <img src="../png/2.jpg" alt="Картинка 2">
+                    <figcaption>Текст подписи под изображением</figcaption><hr>  
+                </figure>
+                <p>
+             В конце 1960-х годов стала осваиваться музеем и территория собственно стрелки рек Волги и Костромы. Первым памятником, размещенным на бывших заливных монастырских лугах, стала церковь Спаса Всемилостивого (1712 г.) из   с. Фоминское Костромского района. Правее от храма, за рощей, устанавливаются мельницы-столбовки из Солигаличского района, а вдоль левого берега речки Игуменки постепенно выстраивается деревенская улица, состоящая из бывших жилых домов костромских крестьян.</p>
+                <figure>
+                    <img src="../png/cover.jpg" alt="Картинка 3">
+                    <figcaption>Текст подписи под изображением</figcaption><hr>  
+                </figure>
+                <p>
+            По первоначальной задумке музей под открытым небом должен был представлять своим посетителям разнообразие и достоинства памятников народного зодчества, но со второй половины 1970-х годов музейные крестьянские постройки стали дополняться этнографическими экспозициями, что позволило, в конечном итоге, целостно воссоздать жизнь Костромской деревни во всей своей полноте. А за домами, в поле, затем устанавливаются амбары, овин, кузница, что фактически реконструирует традиционную планировку крестьянских усадеб.
+                </p>
+            </div>
+            <div class="navigation">
+                <a href="../index.html">← вернуться</a>
+                <a href="#">дальше →</a>
+            </div>
+        </main>
+        <footer>
+            <p class="foot">ОГБУК «Костромской государственный историко-архитектурный и художественный музей-заповедник»</p>
+            <div>
+            <p>© 2025 Все права защищены.</p>
+                <a href="https://vk.com/sloboda44">
+                <svg xmlns="http://www.w3.org/2000/svg" aria-label="VK" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%"/>
+                    <path fill="#2F4836" d="M274 363c5-1 14-3 14-15 0 0-1-30 13-34s32 29 51 42c14 9 25 8 25 8l51-1s26-2 14-23c-1-2-9-15-39-42-31-30-26-25 11-76 23-31 33-50 30-57-4-7-20-6-20-6h-57c-6 0-9 1-12 6 0 0-9 25-21 45-25 43-35 45-40 42-9-5-7-24-7-37 0-45 7-61-13-65-13-2-59-4-73 3-7 4-11 11-8 12 3 0 12 1 17 7 8 13 9 75-2 81-15 11-53-62-62-86-2-6-5-7-12-9H79c-6 0-15 1-11 13 27 56 83 193 184 192z"/>
+                </svg>
+                </a>
+            </div>
+        </footer>
+        <script>
+            function FuncText() {
+                document.getElementById("text").style.display = "block";
+                document.getElementById("audio").style.display = "none";
+            }
+            function FuncAudio() {
+                document.getElementById("text").style.display = "none";
+                document.getElementById("audio").style.display = "block";
+            }
+            function FuncHide() {
+                document.getElementById("text").style.display = "none";
+                document.getElementById("audio").style.display = "none";
+            }
+            function FuncImg1() {
+                document.getElementById("img1").style.display = "block";
+                document.getElementById("img2").style.display = "none";
+                document.getElementById("img3").style.display = "none";
+            }
+            function FuncImg2() {
+                document.getElementById("img1").style.display = "none";
+                document.getElementById("img2").style.display = "block";
+                document.getElementById("img3").style.display = "none";
+            }
+            function FuncImg3() {
+                document.getElementById("img1").style.display = "none";
+                document.getElementById("img2").style.display = "none";
+                document.getElementById("img3").style.display = "block";
+            }
+        </script>
+    </body>
+</html>

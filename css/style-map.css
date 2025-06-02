@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.1rem;
+}
+main {
+    }
+body {
+    background: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    }
+header, ul {
+    display: flex;
+}
+header {
+    justify-content: space-between;
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    right: 0; 
+    background: white;
+}
+header img {
+    margin: 0 2rem;
+    width: 5rem;
+}
+li {
+    list-style: none;
+}
+ul {
+    background: #2F4836;
+    border-radius: 1rem 0rem 0rem 5rem;
+}
+nav a {
+    background: #2F4836;
+    color: white;
+    padding: 1rem 2.5rem;
+    display: block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 1rem 5rem;
+}
+.activ{
+    border: 1px solid azure;
+}
+a:hover, a:active {
+    background: #475D4E;
+}
+a {
+    letter-spacing: 0.2rem;
+}
+main {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+main div {
+    margin: 2rem 0;
+}
+main img {
+    width: 40rem;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    }
+h1, h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+p {
+    font-size: 1.5rem;
+}
+main a {
+    background: #2F4836;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    max-width: 30rem;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+footer {
+    background: #2F4836;
+    color: white;
+    padding: 0.5rem 2rem;
+    margin-top: auto;
+    position:relative; 
+}
+footer p{
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+.foot {
+    margin-bottom: 0.5rem;
+}
+footer div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    opacity: 0.7;
+}
+footer div p {
+    padding-bottom: 0px;
+}
+footer svg{
+    width: 3rem;
+    opacity: 0.7;
+    fill: #ffffff;
+}
+footer svg path{ 
+    fill: #2F4836;
+}
+footer svg:active, footer svg:hover{
+    opacity: 1;
+    fill: #5281b8;
+}
+footer svg:active path, footer svg:hover path{ 
+    fill: #ffffff;
+}

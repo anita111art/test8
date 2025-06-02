@@ -1,0 +1,1561 @@
+* {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.1rem;
+}
+    body {
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header, ul {
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+        position: fixed;  
+        top: 0;  
+        left: 0;  
+        right: 0; 
+        background: white;
+        z-index: 1;
+    }
+    header img {
+        margin: 0 2rem;
+        width: 5rem;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        background: #2F4836;
+        border-radius: 1rem 0rem 0rem 5rem;
+    }
+    nav a {
+        background: #2F4836;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        display: block;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1rem;
+        border-radius: 1rem 5rem;
+    }
+    .activ{
+        border: 1px solid azure;
+    }
+    a:hover, a:active {
+        background: #475D4E;
+    }
+    a {
+        letter-spacing: 0.2rem;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+    main div {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    hr {
+        border-top: 3px double #475D4E;
+    }
+    .center {
+        text-align: center;
+        color: #475D4E;
+        font-size: 1.7rem;
+    }
+    main a {
+        color: #2F4836;
+        padding: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    main a:hover, main a:active {
+        background: #475D4E;
+        border-radius: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    #text {
+        display: none;
+    }
+    #audio {
+        display: none;
+    }
+    audio {
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    audio::-webkit-media-controls-panel {
+        background: #FFDA48;
+    }
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    .photo {
+        display: flex;
+    }
+    .photo a{
+        border-radius: 10rem;
+        width: 3rem;
+        height: 3rem;
+        background: #475D4E;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+        opacity: 0.7;
+        display: block;
+    }
+    .photo a:hover{
+        opacity: 1;
+    }
+    #hide {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        opacity: 0.7;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    footer {
+        background: #2F4836;
+        color: white;
+        padding: 1rem 2rem;
+        position:relative; 
+        margin-top: auto;
+    }
+    footer p{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+    .foot {
+        margin-bottom: 2rem;
+    }
+    footer div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0.7;
+    }
+    footer div p {
+        padding-bottom: 0px;
+    }
+    footer svg{
+        width: 3rem;
+        opacity: 0.7;
+        fill: #ffffff;
+    }
+    footer svg path{ 
+        fill: #2F4836;
+    }s
+    footer svg:active, footer svg:hover{
+        opacity: 1;
+        fill: #5281b8;
+    }
+    footer svg:active path, footer svg:hover path{ 
+        fill: #ffffff;
+    }
+
+@media ((hover: none) and (orientation: portrait) and (min-device-width: 200px) and (max-device-width: 800px)) or (max-width: 550px) {
+    main {
+    }
+    body {
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header, ul {
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+        position: fixed;  
+        top: 0;  
+        left: 0;  
+        right: 0; 
+        background: white;
+    }
+    header img {
+        margin: 0 2rem;
+        width: 20rem;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        background: #2F4836;
+        border-radius: 1rem 0rem 0rem 5rem;
+    }
+    nav a {
+        background: #2F4836;
+        color: white;
+        padding: 4.5rem 2rem;
+        display: block;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2rem;
+        border-radius: 1rem 5rem;
+    }
+    .activ{
+        border: 1px solid azure;
+    }
+    a:hover, a:active {
+        background: #475D4E;
+    }
+    a {
+        letter-spacing: 0.2rem;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 15rem;
+    }
+    main div {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main img {
+        width: 100%;
+        margin: 2rem auto;
+        border-radius: 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 5rem;
+    }
+    p {
+        font-size: 2.5rem;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #475D4E;
+        font-size: 2.5rem;
+    }
+    hr {
+        border-top: 3px double #475D4E;
+    }
+    .center {
+        text-align: center;
+        color: #475D4E;
+        font-size: 3rem;
+    }
+    main a {
+        color: #2F4836;
+        padding: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+    main a:hover, main a:active {
+        background: #475D4E;
+        border-radius: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    #text {
+        display: none;
+    }
+    #audio {
+        display: none;
+    }
+    audio {
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    audio::-webkit-media-controls-panel {
+        background: #FFDA48;
+    }
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    .photo {
+        display: flex;
+    }
+    .photo a{
+        border-radius: 10rem;
+        width: 3rem;
+        height: 3rem;
+        background: #475D4E;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+        opacity: 0.7;
+        display: block;
+    }
+    .photo a:hover{
+        opacity: 1;
+    }
+    #hide {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        opacity: 0.7;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    footer {
+        background: #2F4836;
+        color: white;
+        padding: 1rem 2rem;
+        position:relative; 
+        margin-top: auto;
+    }
+    footer p{
+        padding: 1rem 0;
+        font-size: 2.1rem;
+    }
+    .foot {
+        margin-bottom: 2rem;
+    }
+    footer div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0.7;
+    }
+    footer div p {
+        padding-bottom: 0px;
+    }
+    footer svg{
+        width: 5rem;
+        opacity: 0.7;
+        fill: #ffffff;
+    }
+    footer svg path{ 
+        fill: #2F4836;
+    }
+    footer svg:active, footer svg:hover{
+        opacity: 1;
+        fill: #5281b8;
+    }
+    footer svg:active path, footer svg:hover path{ 
+        fill: #ffffff;
+    }
+}
+
+@media ((hover: none) and (orientation: landscape) and (min-device-width: 200px) and (max-device-width: 800px)) or ((pointer: fine) and (min-width: 550px) and (max-width: 750px)) {
+    main {
+    }
+    body {
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header, ul {
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+        position: fixed;  
+        top: 0;  
+        left: 0;  
+        right: 0; 
+        background: white;
+        z-index: 1;
+    }
+    header img {
+        margin: 0 2rem;
+        width: 5rem;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        background: #2F4836;
+        border-radius: 1rem 0rem 0rem 5rem;
+    }
+    nav a {
+        background: #2F4836;
+        color: white;
+        padding: 2rem 1.5rem;
+        display: block;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 1rem 5rem;
+    }
+    .activ{
+        border: 1px solid azure;
+    }
+    a:hover, a:active {
+        background: #475D4E;
+    }
+    a {
+        letter-spacing: 0.2rem;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+    main div {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main img{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 1rem;
+    }
+    main img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    hr {
+        border-top: 3px double #475D4E;
+    }
+    .center {
+        text-align: center;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    main a {
+        color: #2F4836;
+        padding: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    main a:hover, main a:active {
+        background: #475D4E;
+        border-radius: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    #text {
+        display: none;
+    }
+    #audio {
+        display: none;
+    }
+    audio {
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    audio::-webkit-media-controls-panel {
+        background: #FFDA48;
+    }
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    .photo {
+        display: flex;
+    }
+    .photo a{
+        border-radius: 10rem;
+        width: 3rem;
+        height: 3rem;
+        background: #475D4E;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+        opacity: 0.7;
+        display: block;
+    }
+    .photo a:hover{
+        opacity: 1;
+    }
+    #hide {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        opacity: 0.7;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    footer {
+        background: #2F4836;
+        color: white;
+        padding: 1rem 2rem;
+        position:relative; 
+        margin-top: auto;
+    }
+    footer p{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+    .foot {
+        margin-bottom: 2rem;
+    }
+    footer div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0.7;
+    }
+    footer div p {
+        padding-bottom: 0px;
+    }
+    footer svg{
+        width: 3rem;
+        opacity: 0.7;
+        fill: #ffffff;
+    }
+    footer svg path{ 
+        fill: #2F4836;
+    }
+    footer svg:active, footer svg:hover{
+        opacity: 1;
+        fill: #5281b8;
+    }
+    footer svg:active path, footer svg:hover path{ 
+        fill: #ffffff;
+    }
+}
+
+@media ((hover: none) and (orientation: portrait) and (min-device-width: 800px) and (max-device-width: 1100px)) or ((pointer: fine) and (min-width: 750px) and (max-width: 900px)) {
+    main {
+    }
+    body {
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header, ul {
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+        position: fixed;  
+        top: 0;  
+        left: 0;  
+        right: 0; 
+        background: white;
+        z-index: 1;
+    }
+    header img {
+        margin: 0 2rem;
+        width: 5rem;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        background: #2F4836;
+        border-radius: 1rem 0rem 0rem 5rem;
+    }
+    nav a {
+        background: #2F4836;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        display: block;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 1rem 5rem;
+    }
+    .activ{
+        border: 1px solid azure;
+    }
+    a:hover, a:active {
+        background: #475D4E;
+    }
+    a {
+        letter-spacing: 0.2rem;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+    main div {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main img{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 1rem;
+    }
+    main img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    hr {
+        border-top: 3px double #475D4E;
+    }
+    .center {
+        text-align: center;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    main a {
+        color: #2F4836;
+        padding: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    main a:hover, main a:active {
+        background: #475D4E;
+        border-radius: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    #text {
+        display: none;
+    }
+    #audio {
+        display: none;
+    }
+    audio {
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    audio::-webkit-media-controls-panel {
+        background: #FFDA48;
+    }
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    .photo {
+        display: flex;
+    }
+    .photo a{
+        border-radius: 10rem;
+        width: 3rem;
+        height: 3rem;
+        background: #475D4E;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+        opacity: 0.7;
+        display: block;
+    }
+    .photo a:hover{
+        opacity: 1;
+    }
+    #hide {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        opacity: 0.7;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    footer {
+        background: #2F4836;
+        color: white;
+        padding: 1rem 2rem;
+        position:relative; 
+        margin-top: auto;
+    }
+    footer p{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+    .foot {
+        margin-bottom: 2rem;
+    }
+    footer div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0.7;
+    }
+    footer div p {
+        padding-bottom: 0px;
+    }
+    footer svg{
+        width: 3rem;
+        opacity: 0.7;
+        fill: #ffffff;
+    }
+    footer svg path{ 
+        fill: #2F4836;
+    }
+    footer svg:active, footer svg:hover{
+        opacity: 1;
+        fill: #5281b8;
+    }
+    footer svg:active path, footer svg:hover path{ 
+        fill: #ffffff;
+    }
+}
+
+@media ((hover: none) and (orientation: landscape) and (min-device-width: 800px) and (max-device-width: 1100px)) or ((pointer: fine) and (min-width: 900px) and (max-width: 1100px)){
+    main {
+    }
+    body {
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header, ul {
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+        position: fixed;  
+        top: 0;  
+        left: 0;  
+        right: 0; 
+        background: white;
+        z-index: 1;
+    }
+    header img {
+        margin: 0 2rem;
+        width: 5rem;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        background: #2F4836;
+        border-radius: 1rem 0rem 0rem 5rem;
+    }
+    nav a {
+        background: #2F4836;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        display: block;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1rem;
+        border-radius: 1rem 5rem;
+    }
+    .activ{
+        border: 1px solid azure;
+    }
+    a:hover, a:active {
+        background: #475D4E;
+    }
+    a {
+        letter-spacing: 0.2rem;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+    main div {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    hr {
+        border-top: 3px double #475D4E;
+    }
+    .center {
+        text-align: center;
+        color: #475D4E;
+        font-size: 1.7rem;
+    }
+    main a {
+        color: #2F4836;
+        padding: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    main a:hover, main a:active {
+        background: #475D4E;
+        border-radius: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    #text {
+        display: none;
+    }
+    #audio {
+        display: none;
+    }
+    audio {
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    audio::-webkit-media-controls-panel {
+        background: #FFDA48;
+    }
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    .photo {
+        display: flex;
+    }
+    .photo a{
+        border-radius: 10rem;
+        width: 3rem;
+        height: 3rem;
+        background: #475D4E;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+        opacity: 0.7;
+        display: block;
+    }
+    .photo a:hover{
+        opacity: 1;
+    }
+    #hide {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        opacity: 0.7;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    footer {
+        background: #2F4836;
+        color: white;
+        padding: 1rem 2rem;
+        position:relative; 
+        margin-top: auto;
+    }
+    footer p{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+    .foot {
+        margin-bottom: 2rem;
+    }
+    footer div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0.7;
+    }
+    footer div p {
+        padding-bottom: 0px;
+    }
+    footer svg{
+        width: 3rem;
+        opacity: 0.7;
+        fill: #ffffff;
+    }
+    footer svg path{ 
+        fill: #2F4836;
+    }
+    footer svg:active, footer svg:hover{
+        opacity: 1;
+        fill: #5281b8;
+    }
+    footer svg:active path, footer svg:hover path{ 
+        fill: #ffffff;
+    }
+}
+
+@media ((hover: none) and (orientation: portrait) and (min-device-width: 1100px) and (max-device-width: 2000px)) or ((pointer: fine) and (min-width: 750px) and (max-width: 900px)) {
+    main {
+    }
+    body {
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header, ul {
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+        position: fixed;  
+        top: 0;  
+        left: 0;  
+        right: 0; 
+        background: white;
+        z-index: 1;
+    }
+    header img {
+        margin: 0 2rem;
+        width: 5rem;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        background: #2F4836;
+        border-radius: 1rem 0rem 0rem 5rem;
+    }
+    nav a {
+        background: #2F4836;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        display: block;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 1rem 5rem;
+    }
+    .activ{
+        border: 1px solid azure;
+    }
+    a:hover, a:active {
+        background: #475D4E;
+    }
+    a {
+        letter-spacing: 0.2rem;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+    main div {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main img{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 1rem;
+    }
+    main img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    hr {
+        border-top: 3px double #475D4E;
+    }
+    .center {
+        text-align: center;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    main a {
+        color: #2F4836;
+        padding: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    main a:hover, main a:active {
+        background: #475D4E;
+        border-radius: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    #text {
+        display: none;
+    }
+    #audio {
+        display: none;
+    }
+    audio {
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    audio::-webkit-media-controls-panel {
+        background: #FFDA48;
+    }
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    .photo {
+        display: flex;
+    }
+    .photo a{
+        border-radius: 10rem;
+        width: 3rem;
+        height: 3rem;
+        background: #475D4E;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+        opacity: 0.7;
+        display: block;
+    }
+    .photo a:hover{
+        opacity: 1;
+    }
+    #hide {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        opacity: 0.7;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    footer {
+        background: #2F4836;
+        color: white;
+        padding: 1rem 2rem;
+        position:relative; 
+        margin-top: auto;
+    }
+    footer p{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+    .foot {
+        margin-bottom: 2rem;
+    }
+    footer div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0.7;
+    }
+    footer div p {
+        padding-bottom: 0px;
+    }
+    footer svg{
+        width: 3rem;
+        opacity: 0.7;
+        fill: #ffffff;
+    }
+    footer svg path{ 
+        fill: #2F4836;
+    }
+    footer svg:active, footer svg:hover{
+        opacity: 1;
+        fill: #5281b8;
+    }
+    footer svg:active path, footer svg:hover path{ 
+        fill: #ffffff;
+    }
+}
+
+@media ((hover: none) and (orientation: landscape) and (min-device-width: 1100px) and (max-device-width: 2000px)) or ((pointer: fine) and (min-width: 900px) and (max-width: 1100px)){
+    main {
+    }
+    body {
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header, ul {
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+        position: fixed;  
+        top: 0;  
+        left: 0;  
+        right: 0; 
+        background: white;
+        z-index: 1;
+    }
+    header img {
+        margin: 0 2rem;
+        width: 5rem;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        background: #2F4836;
+        border-radius: 1rem 0rem 0rem 5rem;
+    }
+    nav a {
+        background: #2F4836;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        display: block;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1rem;
+        border-radius: 1rem 5rem;
+    }
+    .activ{
+        border: 1px solid azure;
+    }
+    a:hover, a:active {
+        background: #475D4E;
+    }
+    a {
+        letter-spacing: 0.2rem;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+    main div {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    hr {
+        border-top: 3px double #475D4E;
+    }
+    .center {
+        text-align: center;
+        color: #475D4E;
+        font-size: 1.7rem;
+    }
+    main a {
+        color: #2F4836;
+        padding: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    main a:hover, main a:active {
+        background: #475D4E;
+        border-radius: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    #text {
+        display: none;
+    }
+    #audio {
+        display: none;
+    }
+    audio {
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    audio::-webkit-media-controls-panel {
+        background: #FFDA48;
+    }
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    .photo {
+        display: flex;
+    }
+    .photo a{
+        border-radius: 10rem;
+        width: 3rem;
+        height: 3rem;
+        background: #475D4E;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+        opacity: 0.7;
+        display: block;
+    }
+    .photo a:hover{
+        opacity: 1;
+    }
+    #hide {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        opacity: 0.7;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    footer {
+        background: #2F4836;
+        color: white;
+        padding: 1rem 2rem;
+        position:relative; 
+        margin-top: auto;
+    }
+    footer p{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+    .foot {
+        margin-bottom: 2rem;
+    }
+    footer div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0.7;
+    }
+    footer div p {
+        padding-bottom: 0px;
+    }
+    footer svg{
+        width: 3rem;
+        opacity: 0.7;
+        fill: #ffffff;
+    }
+    footer svg path{ 
+        fill: #2F4836;
+    }
+    footer svg:active, footer svg:hover{
+        opacity: 1;
+        fill: #5281b8;
+    }
+    footer svg:active path, footer svg:hover path{ 
+        fill: #ffffff;
+    }
+}
+
+@media (pointer: fine) and (min-width: 1700px) {
+    main {
+    }
+    body {
+        background: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    header, ul {
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+        position: fixed;  
+        top: 0;  
+        left: 0;  
+        right: 0; 
+        background: white;
+        z-index: 1;
+    }
+    header img {
+        margin: 0 2rem;
+        width: 5rem;
+    }
+    li {
+        list-style: none;
+    }
+    ul {
+        background: #2F4836;
+        border-radius: 1rem 0rem 0rem 5rem;
+    }
+    nav a {
+        background: #2F4836;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        display: block;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1rem;
+        border-radius: 1rem 5rem;
+    }
+    .activ{
+        border: 1px solid azure;
+    }
+    a:hover, a:active {
+        background: #475D4E;
+    }
+    a {
+        letter-spacing: 0.2rem;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 7rem;
+    }
+    main div {
+        margin: 2rem 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    main img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+    h1, h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    figcaption {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #475D4E;
+        font-size: 2rem;
+    }
+    hr {
+        border-top: 3px double #475D4E;
+    }
+    .center {
+        text-align: center;
+        color: #475D4E;
+        font-size: 1.7rem;
+    }
+    main a {
+        color: #2F4836;
+        padding: 1rem;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    main a:hover, main a:active {
+        background: #475D4E;
+        border-radius: 1rem;
+        color: white;
+        text-decoration: none;
+    }
+    #text {
+        display: none;
+    }
+    #audio {
+        display: none;
+    }
+    audio {
+        margin: 1rem auto;
+        width: 100%;
+        display: block;
+    }
+    audio::-webkit-media-controls-panel {
+        background: #FFDA48;
+    }
+    #img1, #img2, #img3 {
+        display: none;
+    }
+    .photo {
+        display: flex;
+    }
+    .photo a{
+        border-radius: 10rem;
+        width: 3rem;
+        height: 3rem;
+        background: #475D4E;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        margin: 1rem;
+        opacity: 0.7;
+        display: block;
+    }
+    .photo a:hover{
+        opacity: 1;
+    }
+    #hide {
+        text-decoration: none;
+        opacity: 0.7;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+        opacity: 0.7;
+    }
+    .navigation a {
+        text-decoration: none;
+    }
+    footer {
+        background: #2F4836;
+        color: white;
+        padding: 1rem 2rem;
+        position:relative; 
+        margin-top: auto;
+    }
+    footer p{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+    .foot {
+        margin-bottom: 2rem;
+    }
+    footer div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        opacity: 0.7;
+    }
+    footer div p {
+        padding-bottom: 0px;
+    }
+    footer svg{
+        width: 3rem;
+        opacity: 0.7;
+        fill: #ffffff;
+    }
+    footer svg path{ 
+        fill: #2F4836;
+    }s
+    footer svg:active, footer svg:hover{
+        opacity: 1;
+        fill: #5281b8;
+    }
+    footer svg:active path, footer svg:hover path{ 
+        fill: #ffffff;
+    }
+}
